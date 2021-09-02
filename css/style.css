@@ -52,7 +52,7 @@ header {
 .top {
   background-image: url(../images/austin-distel-wawEfYdpkag-unsplash.jpg);
   background-size: cover;
-  /* background-position: center center; */
+  background-position: center center;
   /* height: 551px; */
   text-align: center;
   color: #fff;
@@ -132,7 +132,7 @@ input {
 .contact-form {
   background-image: url(../images/tim-bogdanov-4uojMEdcwI8-unsplash.jpg);
   background-size: cover;
-  /* background-position: center center; */
+  background-position: center center;
   /* height: 455px; */
   color: #fff;
   text-align: center;
