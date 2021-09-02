@@ -48,6 +48,11 @@ header {
   padding: 31px 20px 30px 0;
 }
 
+.fa-bars {
+  display: none;
+  padding: 27px 20px 26px 0;
+}
+
 /* TOP */
 .top {
   background-image: url(../images/austin-distel-wawEfYdpkag-unsplash.jpg);
@@ -190,6 +195,14 @@ footer p {
   .wrapper {
     /* margin: 0 auto; */
     padding: 0 20px;
+  }
+
+  .main-nav ul {
+    display: none;
+  }
+
+  .fa-bars {
+    display: block;
   }
 
   .top h2 {
