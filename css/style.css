@@ -52,7 +52,6 @@ header {
 .main-nav li {
   flex-direction: row;
   font-size: 16px;
-  /* font-weight: bold; */
   padding: 31px 20px 30px 0;
 }
 
@@ -66,23 +65,18 @@ header {
   background-image: url(../images/austin-distel-wawEfYdpkag-unsplash.jpg);
   background-size: cover;
   background-position: center center;
-  /* height: 551px; */
   text-align: center;
   color: #fff;
 }
 
 .top h2 {
   padding: 254px 0 5px 0;
-  /* margin: 0 auto; */
   font-size: 36px;
-  /* font-weight: bold; */
 }
 
 .top p {
   padding: 5px 0 225px 0;
-  /* margin: 0 auto; */
   font-size: 16px;
-  /* font-weight: bold; */
 }
 
 /* ARTICLE */
@@ -91,7 +85,6 @@ article h2 {
   color: #333333;
   text-align: center;
   font-size: 32px;
-  /* font-weight: bold; */
 }
 
 .item-list {
@@ -137,7 +130,6 @@ article h2 {
   background-image: url(../images/tim-bogdanov-4uojMEdcwI8-unsplash.jpg);
   background-size: cover;
   background-position: center center;
-    /* height: 455px; */
   color: #fff;
   text-align: center;
 }
@@ -145,13 +137,11 @@ article h2 {
 .contact-form h2 {
   padding-top: 59px;
   font-size: 36px;
-  /* font-weight: bold; */
 }
 
 .contact-form p {
   padding: 47px 0 50px 0;
   font-size: 16px;
-  /* font-weight: bold; */
 }
 
 .contact-btn {
@@ -170,7 +160,6 @@ footer {
 
 footer p {
   color: #fff;
-  /* font-weight: bold; */
   text-align: center;
   padding: 32px 0 31px 0;
 }
@@ -178,12 +167,10 @@ footer p {
 /* TB */
 @media (max-width: 1000px) {
   .wrapper {
-    /* margin: 0 auto; */
     padding: 0 20px;
   }
 
   .item-list {
-    /* display: flex; */
     flex-wrap: wrap;    
   }
 
@@ -192,7 +179,6 @@ footer p {
 /* SP */
 @media (max-width: 414px) {
   .wrapper {
-    /* margin: 0 auto; */
     padding: 0 10px;
   }
   
@@ -224,7 +210,6 @@ footer p {
   }
 
   .item-list {
-    /* display: flex; */
     flex-direction: column;
   }
 
