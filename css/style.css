@@ -6,6 +6,7 @@ html {
 }
 
 body {
+  font-weight: bold;
   font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
   color: #432;
 }
@@ -43,7 +44,7 @@ header {
 .main-nav li {
   flex-direction: row;
   font-size: 16px;
-  font-weight: bold;
+  /* font-weight: bold; */
   padding: 31px 20px 30px 0;
 }
 
@@ -51,20 +52,24 @@ header {
 .top {
   background-image: url(../images/austin-distel-wawEfYdpkag-unsplash.jpg);
   background-size: cover;
-  height: 551px;
+  /* background-position: center center; */
+  /* height: 551px; */
   text-align: center;
   color: #fff;
 }
 
 .top h2 {
-  padding: 254px 452px 10px 452px;
+  padding: 254px 0 5px 0;
+  /* margin: 0 auto; */
   font-size: 36px;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .top p {
+  padding: 5px 0 225px 0;
+  /* margin: 0 auto; */
   font-size: 16px;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 /* ARTICLE */
@@ -73,7 +78,7 @@ article h2 {
   color: #333333;
   text-align: center;
   font-size: 32px;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .item-list {
@@ -102,6 +107,7 @@ article h2 {
   position: absolute;
   bottom: 20px;
   left: 19px;
+  font-weight: normal;
 }
 
 input {
@@ -110,10 +116,10 @@ input {
 
 .btn {
   text-align: center;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
-.read-more-btn {
+.readmore-btn {
   width: 310px;
   height: 52px;
   border: 1px solid #EEE;
@@ -126,7 +132,8 @@ input {
 .contact-form {
   background-image: url(../images/tim-bogdanov-4uojMEdcwI8-unsplash.jpg);
   background-size: cover;
-  height: 455px;
+  /* background-position: center center; */
+  /* height: 455px; */
   color: #fff;
   text-align: center;
 }
@@ -134,11 +141,13 @@ input {
 .contact-form h2 {
   padding-top: 59px;
   font-size: 36px;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .contact-form p {
   padding: 47px 0 50px 0;
+  font-size: 16px;
+  /* font-weight: bold; */
 }
 
 .contact-btn {
@@ -146,6 +155,7 @@ input {
   height: 54px;
   background-color: #83032A;
   border: none;
+  border-radius: 5px;
   margin-bottom: 44px;
 }
 
@@ -156,7 +166,43 @@ footer {
 
 footer p {
   color: #fff;
-  font-weight: bold;
+  /* font-weight: bold; */
   text-align: center;
   padding: 32px 0 31px 0;
+}
+
+/* tablet */
+@media (max-width: 1000px) {
+  .wrapper {
+    /* margin: 0 auto; */
+    padding: 0 20px;
+  }
+
+  .item-list {
+    /* display: flex; */
+    flex-wrap: wrap;    
+  }
+
+}
+
+/* SP */
+@media (max-width: 670px) {
+  .wrapper {
+    /* margin: 0 auto; */
+    padding: 0 20px;
+  }
+
+  .top h2 {
+    word-break: break-word;
+  }
+
+  .item-list {
+    /* display: flex; */
+    flex-direction: column;
+  }
+
+  .item {
+    margin: 0 auto;
+  }
+  
 }
